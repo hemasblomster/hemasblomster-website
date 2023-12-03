@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,94 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg-img {
+  background: url('images/img2.jpg');
+  height: 700px;
+}
+
+.bg-subsite {
+  background: url('images/img2.png');
+  height: 300px;
+}
+
+
+/* menu */
+
+.burger {
+  display: none;
+}
+
+.private-icon {
+  display: none;
+}
+
+/* dropdown menu*/
+/* Hides the dropdown content initially */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Show the dropdown content when hovering over the dropdown menu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* gallery */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-opacity {
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .hover-opacity {
+  opacity: 0.6;
+}
+
+
+
+
+/* Media query för mobila enheter */
+@media screen and (max-width: 768px) {
+  .burger {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    height: 100vh;
+
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .dropdown-content a {
+    display: none;
+  }
 }
