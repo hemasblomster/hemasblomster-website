@@ -1,4 +1,4 @@
-const Header = () => {
+const HeaderMenu = () => {
   return (
     <>
       <div className="flex justify-around bg-violet-800 text-white p-6 mt-10 md:mt-0">
@@ -7,13 +7,10 @@ const Header = () => {
           <p>2860 Søborg</p>
         </div>
         <div className="grid grid-cols-3 gap-6 text-2xl">
-          <a href="index.html" className="hover:border-white hover:border-b-4">
+          <a href="/" className="hover:border-white hover:border-b-4">
             Forside
           </a>
-          <a
-            href="kontakt.html"
-            className="hover:border-white hover:border-b-4"
-          >
+          <a href="#" className="hover:border-white hover:border-b-4">
             Kontakt
           </a>
         </div>
@@ -22,4 +19,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderMenu;

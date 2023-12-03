@@ -1,8 +1,8 @@
-const HomeHeader = () => {
+const HomeInfo = () => {
   return (
     <>
-      <section className="bg-img bg-cover w-full text-white">
-        <div className=" w-full md:w-1/2 pt-28  pl-8 md:pl-72">
+      <section className="bg-img  text-white">
+        <div className=" w-full md:w-1/2 pt-28  pl-8 md:pl-72 text-left">
           <h1 className="text-5xl pb-4">Hema's Blomster</h1>
           <p className="text-xl">
             Hos Hema's blomster, lægger vi vægt på friskhed og kvalitet, hvilket
@@ -37,4 +37,4 @@ const HomeHeader = () => {
   );
 };
 
-export default HomeHeader;
+export default HomeInfo;

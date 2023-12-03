@@ -17,8 +17,11 @@ code {
 }
 
 .bg-img {
-  background: url('images/img2.jpg');
+  background: url('images/StartPageImg.jpg');
   height: 700px;
+
+
+
 }
 
 .bg-subsite {

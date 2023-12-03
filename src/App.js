@@ -2,13 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
 import Home from "./views/Home";
-import Header from "./components/Header";
+import HeaderMenu from "./components/HeaderMenu";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <HeaderMenu />
       <Home />
       <Footer />
     </div>
