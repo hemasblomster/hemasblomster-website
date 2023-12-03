@@ -1,8 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
 import App from "./App";
 import Home from "./views/Home";
 import Contact from "./views/Contact";
+import NotFound from "./views/NotFound";
 import TradingConditions from "./views/TradingConditions";
 
 export const router = createBrowserRouter(
@@ -11,6 +15,7 @@ export const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="kontakt" element={<Contact />} />
       <Route path="handelsbetingelser" element={<TradingConditions />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );

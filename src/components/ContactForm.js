@@ -9,7 +9,7 @@ const ContactForm = () => {
           onsubmit="var originalCharset = document.charset; 
             document.charset = 'ISO-8859-1'; 
             window.onbeforeunload = function () {document.charset=originalCharset;};"
-          class="bg-violet-300 p-8 text-white font-semibold"
+          class="bg-violet-300 p-8 text-white font-semibold text-left"
         >
           Navn
           <br />

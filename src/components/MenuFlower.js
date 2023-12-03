@@ -1,5 +1,5 @@
 import logo from "../images/logo.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MenuFlower = () => {
   return (
@@ -10,34 +10,34 @@ const MenuFlower = () => {
         </div>
         <ul className="md:flex justify-center items-center p-4 gap-5 text-xl menu">
           <li>
-            <a href="index.html">
+            <Link to="/">
               <img src={logo} alt="logo" className="w-auto h-24" />
-            </a>
+            </Link>
           </li>
           <li className="dropdown">
-            <a
-              href="https://hemasblomster.dk/webshop/6-buketter"
+            <Link
+              to="https://hemasblomster.dk/webshop/6-buketter"
               className="hover:text-violet-800"
             >
               Buketter
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="https://hemasblomster.dk/webshop/9-begravelse"
+            <Link
+              to="https://hemasblomster.dk/webshop/9-begravelse"
               className="hover:text-violet-800"
             >
               Begravelse
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
-              href="https://hemasblomster.dk/webshop/10-bryllup"
+            <Link
+              to="https://hemasblomster.dk/webshop/10-bryllup"
               className="hover:text-violet-800"
             >
               Bryllup
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

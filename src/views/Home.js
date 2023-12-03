@@ -1,11 +1,10 @@
 import HomeWebshop from "../components/HomeWebshop";
-import MenuHeader from "../components/MenuFlower";
+import MenuFlower from "../components/MenuFlower";
 import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   return (
     <>
-      <MenuHeader />
       <HomeInfo />
       <HomeWebshop />
     </>

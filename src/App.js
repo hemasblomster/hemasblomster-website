@@ -1,15 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
 import Home from "./views/Home";
 import HeaderMenu from "./components/HeaderMenu";
+import MenuFlower from "./components/MenuFlower";
 import Footer from "./components/Footer";
+import { Outlet, useNavigation } from "react-router-dom";
 
 function App() {
+  const navigation = useNavigation();
   return (
     <div className="App">
       <HeaderMenu />
-      <Home />
+      <MenuFlower />
+      <main>
+        {navigation.state === "loading" ? <p>loading...</p> : <Outlet />}
+      </main>
       <Footer />
     </div>
   );

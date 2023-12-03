@@ -1,3 +1,5 @@
+import { Link, useNavigation } from "react-router-dom";
+
 const HomeInfo = () => {
   return (
     <>
@@ -19,11 +21,11 @@ const HomeInfo = () => {
                 Se vores udvalg
               </button>
             </a>
-            <a href="kontakt.html">
+            <Link to="kontakt">
               <button className="bg-violet-50 hover:bg-violet-200 text-black font-bold py-4 px-6 rounded-xl">
                 Kontakt os
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,3 +1,5 @@
+import { Link, useNavigation } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -60,15 +62,12 @@ const Footer = () => {
               <i className="fa-brands fa-square-facebook"></i>
             </a>
             <div className="flex text-xl gap-5">
-              <a
-                href="handelsbetingelser.html"
-                className="hover:text-violet-800"
-              >
+              <Link to="/handelsbetingelser" className="hover:text-violet-800">
                 HANDELSBETINGELSER
-              </a>
-              <a href="kontakt.html" className="hover:text-violet-800">
+              </Link>
+              <Link to="kontakt" className="hover:text-violet-800">
                 KUNDSERVICE
-              </a>
+              </Link>
             </div>
           </div>
         </div>
