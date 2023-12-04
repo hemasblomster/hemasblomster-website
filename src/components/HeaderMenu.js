@@ -10,7 +10,7 @@ const HeaderMenu = () => {
           <p>Søborg Hovedgade 157-159</p>
           <p>2860 Søborg</p>
         </div>
-        <div className="grid grid-cols-3 gap-6 text-2xl">
+        <div className="grid grid-cols-3 gap-24 md:gap-6 text-2xl">
           <Link to="/" className="hover:border-white hover:border-b-4">
             Forside
           </Link>

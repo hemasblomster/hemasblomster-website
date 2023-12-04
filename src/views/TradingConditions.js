@@ -1,7 +1,7 @@
 const TradingConditions = () => {
   return (
     <>
-      <div className="bg-subsite bg-cover bg-no-repeat w-full text-white">
+      <div className="bg-subsite text-white">
         <h1 className="text-4xl text-center pt-32">Handelsbetingelser</h1>
       </div>
 

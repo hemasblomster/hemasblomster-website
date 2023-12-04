@@ -1,14 +1,11 @@
 import ContactForm from "../components/ContactForm";
-import MenuHeader from "../components/MenuFlower";
-import HomeInfo from "../components/HomeInfo";
-import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section className="bg-subsite bg-cover bg-no-repeat w-full text-white">
+      <section className="bg-subsite text-white">
         <h1 className="text-4xl text-center pt-32">Kontakt</h1>
       </section>
 

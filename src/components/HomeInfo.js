@@ -3,7 +3,7 @@ import { Link, useNavigation } from "react-router-dom";
 const HomeInfo = () => {
   return (
     <>
-      <section className="bg-img  text-white">
+      <section className="bg-img text-white">
         <div className=" w-full md:w-1/2 pt-28  pl-8 md:pl-72 text-left">
           <h1 className="text-5xl pb-4">Hema's Blomster</h1>
           <p className="text-xl">
