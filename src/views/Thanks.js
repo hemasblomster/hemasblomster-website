@@ -1,7 +1,6 @@
 const Thanks = () => {
   return (
     <>
-      {" "}
       <section className="bg-subsite bg-cover bg-no-repeat w-full text-white">
         <h1 className="text-4xl text-center pt-32">Tak!</h1>
       </section>
