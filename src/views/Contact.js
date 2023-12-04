@@ -8,14 +8,14 @@ const Contact = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section class="bg-subsite bg-cover bg-no-repeat w-full text-white">
-        <h1 class="text-4xl text-center pt-32">Kontakt</h1>
+      <section className="bg-subsite bg-cover bg-no-repeat w-full text-white">
+        <h1 className="text-4xl text-center pt-32">Kontakt</h1>
       </section>
 
-      <section class="grid grid-cols-1 md:grid-cols-2 place-items-center my-10">
-        <div class="p-5 md:p-1">
-          <h2 class="text-5xl mb-3">Kontakt os</h2>
-          <p class="text-xl  mb-10 md:mb-1">
+      <section className="grid grid-cols-1 md:grid-cols-2 place-items-center my-10 text-left">
+        <div className="p-5 md:p-1">
+          <h2 className="text-5xl mb-3">Kontakt os</h2>
+          <p className="text-xl  mb-10 md:mb-1">
             Hvis du har nogle spørgsmål, så tøv ikke med at kontakte os, så
             vender vi tilbage.
           </p>

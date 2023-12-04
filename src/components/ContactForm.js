@@ -9,13 +9,13 @@ const ContactForm = () => {
           onsubmit="var originalCharset = document.charset; 
             document.charset = 'ISO-8859-1'; 
             window.onbeforeunload = function () {document.charset=originalCharset;};"
-          class="bg-violet-300 p-8 text-white font-semibold text-left"
+          className="bg-violet-300 p-8 text-white font-semibold text-left"
         >
           Navn
           <br />
           <input
             name="realname"
-            class="block w-full p-1 border-2 text-black font-light"
+            className="block w-full p-1 border-2 text-black font-light"
             required
           />
           <br />
@@ -23,7 +23,7 @@ const ContactForm = () => {
           <br />
           <input
             name="email"
-            class="block w-full p-1 border-2 text-black font-light"
+            className="block w-full p-1 border-2 text-black font-light"
             required
           />
           <br />
@@ -33,14 +33,14 @@ const ContactForm = () => {
             cols="40"
             rows="6"
             name="Message"
-            class="resize-none border-2 text-black font-normal"
+            className="resize-none border-2 text-black font-normal"
             required
           ></textarea>
           <br />
           <input
             type="submit"
             value="Send besked"
-            class="block bg-violet-800 hover:bg-violet-600 text-white font-bold py-2 w-full rounded mt-3"
+            className="block bg-violet-800 hover:bg-violet-600 text-white font-bold py-2 w-full rounded mt-3"
           />
           <input type="hidden" name="recipient" value="info@hemasblomster.dk" />
           <input type="hidden" name="subject" value="Subject" />
