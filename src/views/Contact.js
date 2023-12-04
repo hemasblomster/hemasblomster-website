@@ -1,5 +1,4 @@
 import ContactForm from "../components/ContactForm";
-import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   return (
