@@ -2,7 +2,6 @@ import ContactForm from "../components/ContactForm";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const navigate = useNavigate();
   return (
     <>
       <section className="bg-subsite text-white">

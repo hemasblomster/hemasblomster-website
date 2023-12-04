@@ -1,8 +1,6 @@
-import { Link, useNavigation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderMenu = () => {
-  const navigation = useNavigation();
-
   return (
     <>
       <div className="flex justify-around bg-violet-800 text-white p-6 mt-10 md:mt-0">
