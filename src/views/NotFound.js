@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
     <>
       <div className="mt-40 mb-40">
         <h1 className="text-5xl pb-4">OUPS</h1>
-        <p>What you are looking for can't be found!</p>
+        <p>Det, du leder efter, kan ikke findes!</p>
         <p>
-          Click
-          <span className="text-pink-700 ">
-            <Link to="/">here</Link>
+          Klik
+          <span className="text-pink-700 text-2xl">
+            <Link to="/"> her </Link>
           </span>
-          to get back to the homepage.
+          for at komme tilbage til hjemmesiden.
         </p>
       </div>
     </>

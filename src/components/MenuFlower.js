@@ -1,5 +1,5 @@
 import logo from "../images/logo.png";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const MenuFlower = () => {
   return (
@@ -12,6 +12,14 @@ const MenuFlower = () => {
           <li>
             <Link to="/">
               <img src={logo} alt="logo" className="w-auto h-24" />
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="https://hemasblomster.dk/webshop/13-alle"
+              className="hover:text-violet-800"
+            >
+              Alle
             </Link>
           </li>
           <li className="dropdown">
