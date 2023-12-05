@@ -9,7 +9,6 @@ import Contact from "./views/Contact";
 import Thanks from "./views/Thanks";
 import NotFound from "./views/NotFound";
 import TradingConditions from "./views/TradingConditions";
-import { BrowserRouter, Link } from "react-router-dom";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
