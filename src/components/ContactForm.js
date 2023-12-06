@@ -48,7 +48,7 @@ const ContactForm = () => {
             type="hidden"
             name="redirect"
             // value="http://www.hemasblomster.dk/thanks.html"
-            value="http://www.hemasblomster.dk/tak"
+            value="https://hemasblomster.netlify.app/tak"
           />
           <input
             type="hidden"
