@@ -14,9 +14,9 @@ export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
-      <Route path="kontakt" element={<Contact />} />
-      <Route path="handelsbetingelser" element={<TradingConditions />} />
-      <Route path="tak" element={<Thanks />} />
+      <Route path="/kontakt" element={<Contact />} />
+      <Route path="/handelsbetingelser" element={<TradingConditions />} />
+      <Route path="/tak" element={<Thanks />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )

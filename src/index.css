@@ -68,9 +68,6 @@ code {
   opacity: 0.6;
 }
 
-
-
-
 /* Media query för mobila enheter */
 @media screen and (max-width: 768px) {
   .burger {
@@ -83,13 +80,7 @@ code {
 
   }
 
-  nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 100;
-    height: 100vh;
-  }
+
 
   nav ul {
     display: none;

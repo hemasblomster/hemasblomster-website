@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const HeaderMenu = () => {
   return (
@@ -9,12 +10,15 @@ const HeaderMenu = () => {
           <p>2860 Søborg</p>
         </div>
         <div className="grid grid-cols-3 gap-24 md:gap-6 text-2xl">
-          <Link to="/" className="hover:border-white hover:border-b-4">
+          <NavLink to="/" className="hover:border-white hover:border-b-4">
             Forside
-          </Link>
-          <Link to="/kontakt" className="hover:border-white hover:border-b-4">
+          </NavLink>
+          <NavLink
+            to="/kontakt"
+            className="hover:border-white hover:border-b-4"
+          >
             Kontakt
-          </Link>
+          </NavLink>
         </div>
       </div>
     </>
