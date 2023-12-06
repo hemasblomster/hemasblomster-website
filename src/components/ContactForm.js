@@ -4,7 +4,7 @@ const ContactForm = () => {
       <div>
         <form
           method="post"
-          action="http://www.hemasblomster.dk/cgi-bin/FormMail.pl"
+          action="https://www.hemasblomster.dk/cgi-bin/FormMail.pl"
           accept-charset="ISO-8859-1"
           onsubmit="var originalCharset = document.charset; 
             document.charset = 'ISO-8859-1'; 
