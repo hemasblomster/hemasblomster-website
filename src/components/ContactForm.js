@@ -47,7 +47,7 @@ const ContactForm = () => {
           <input
             type="hidden"
             name="redirect"
-            value="http://www.hemasblomster.dk/tak"
+            // value="http://www.hemasblomster.dk/thanks.html"
           />
           <input
             type="hidden"

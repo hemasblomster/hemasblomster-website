@@ -81,14 +81,12 @@ code {
   }
 
 
-
   nav ul {
     display: none;
     flex-direction: column;
     text-align: center;
     background-color: #fff;
     height: 100vh;
-
   }
 
   .menu-icon {
@@ -97,5 +95,17 @@ code {
 
   .dropdown-content a {
     display: none;
+  }
+
+  .bg-subsite {
+    display: none;
+  }
+}
+
+@media (hover: none) {
+  .mobile-no-hover-border:hover {
+    border: none;
+    /* Ta bort gränsen vid hovring på mobila enheter */
+    /* Lägg till andra stilar du vill avaktivera */
   }
 }

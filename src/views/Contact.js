@@ -3,7 +3,7 @@ import ContactForm from "../components/ContactForm";
 const Contact = () => {
   return (
     <>
-      <section className="bg-subsite text-white">
+      <section className="bg-subsite text-white ">
         <h1 className="text-4xl text-center pt-32">Kontakt</h1>
       </section>
 

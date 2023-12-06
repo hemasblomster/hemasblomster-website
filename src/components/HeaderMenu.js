@@ -10,12 +10,15 @@ const HeaderMenu = () => {
           <p>2860 Søborg</p>
         </div>
         <div className="grid grid-cols-3 gap-24 md:gap-6 text-2xl">
-          <NavLink to="/" className="hover:border-white hover:border-b-4">
+          <NavLink
+            to="/"
+            className="hover:border-white hover:border-b-4 mobile-no-hover-border"
+          >
             Forside
           </NavLink>
           <NavLink
             to="/kontakt"
-            className="hover:border-white hover:border-b-4"
+            className="hover:border-white hover:border-b-4 mobile-no-hover-border"
           >
             Kontakt
           </NavLink>
