@@ -1,6 +1,7 @@
 import buketter1 from "../images/flowers/buketter/img1.jpg";
 import begravelse1 from "../images/flowers/begravelse/img1.jpg";
 import bryllup1 from "../images/flowers/bryllup/img1.jpg";
+import { Link } from "react-router-dom";
 
 const HomeWebshop = () => {
   return (
@@ -9,7 +10,7 @@ const HomeWebshop = () => {
 
       <section className="grid  grid-cols-1 md:grid-cols-3 place-items-center gap-5  mx-3 md:mx-96  my-3 md:my-6">
         <div className="relative image-container">
-          <a href="https://hemasblomster.dk/webshop/6-buketter">
+          <Link to="https://hemasblomster.dk/webshop/6-buketter">
             <img
               src={buketter1}
               alt="kategori 1"
@@ -20,11 +21,11 @@ const HomeWebshop = () => {
                 Buketter
               </h2>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div className="relative image-container">
-          <a href="https://hemasblomster.dk/webshop/9-begravelse">
+          <Link to="https://hemasblomster.dk/webshop/9-begravelse">
             <img
               src={begravelse1}
               alt="kategori 1"
@@ -35,11 +36,11 @@ const HomeWebshop = () => {
                 Begravelse
               </h2>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div className="relative image-container">
-          <a href="https://hemasblomster.dk/webshop/10-bryllup">
+          <Link to="https://hemasblomster.dk/webshop/10-bryllup">
             <img
               src={bryllup1}
               alt="kategori 1"
@@ -50,7 +51,7 @@ const HomeWebshop = () => {
                 Bryllup
               </h2>
             </div>
-          </a>
+          </Link>
         </div>
       </section>
     </>

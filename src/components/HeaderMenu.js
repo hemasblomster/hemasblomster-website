@@ -22,6 +22,12 @@ const HeaderMenu = () => {
           >
             Kontakt
           </NavLink>
+          <NavLink
+            to="/tak"
+            className="hover:border-white hover:border-b-4 mobile-no-hover-border"
+          >
+            Tak
+          </NavLink>
         </div>
       </div>
     </>

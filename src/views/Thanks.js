@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Thanks = () => {
   return (
     <>
@@ -8,6 +10,13 @@ const Thanks = () => {
         <div className="p-5 md:p-1">
           <h2 className="text-5xl mb-3">Tak for din besked,</h2>
           <h2 className="text-5xl mb-3">vi vender snarest tilbage!</h2>
+          <p>
+            Klik
+            <Link to="http://hemasblomster.dk/" class="text-red-700">
+              &nbsp;<Link to="/">her</Link>&nbsp;
+            </Link>
+            for at vende til Forsiden
+          </p>
         </div>
 
         <div></div>
