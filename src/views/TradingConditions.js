@@ -10,16 +10,16 @@ const TradingConditions = () => {
           Handelsbetingelser hos Hema's Blomster
         </h1>
         <h2 className="text-2xl pb-3">Generelle oplysninger</h2>
-        <p>[ FIRMANAVN ]</p>
-        <p>[ ADRESSE ]</p>
-        <p>[ POSTNR OG BY ]</p>
-        <p>CVR nr.: [ CVR NUMMER]</p>
-        <p>Telefon: [ TELEFONNUMMER ]</p>
-        <p>Email: [ E-MAILADRESSE ]</p>
+        <p>Hema's Blomster</p>
+        <p>Søborg Hovedgade 157-159</p>
+        <p>2860 Søborg</p>
+        <p>CVR nr.: 44119730</p>
+        <p>Telefon: +45 31 33 61 05</p>
+        <p>Email: info@hemasblomster.dk</p>
 
         <h2 className="text-2xl pb-3 mt-4">Priser</h2>
         <p>
-          Hos [ FIRMANAVN ] er alle priserne i danske kroner og angivet inkl.
+          Hos Hema's Blomster er alle priserne i danske kroner og angivet inkl.
           moms og afgifter. Vi forbeholder os ret til fra dag til dag at ændre i
           priserne uden forudgående samtykke. Der tages forbehold for udsolgte
           varer.
@@ -27,21 +27,21 @@ const TradingConditions = () => {
 
         <h2 className="text-2xl pb-3 mt-4">Betaling</h2>
         <p>
-          [ FIRMANAVN ] modtager betaling med VISA-Dankort, VISA, VISA Electron,
-          Mastercard, PayPal, MobilePay, Bankoverførsel. Betalingen vil først
-          blive trukket på din konto, når varen afsendes. Alle beløb er i DKK.
-          Danske kroner og incl. moms. Der tages forbehold for prisfejl og
-          udsolgte/udgåede varer.
+          Hema's Blomster [modtager betaling med VISA-Dankort, VISA, VISA
+          Electron, Mastercard, PayPal, MobilePay, Bankoverførsel.] Betalingen
+          vil først blive trukket på din konto, når varen afsendes. Alle beløb
+          er i DKK. Danske kroner og incl. moms. Der tages forbehold for
+          prisfejl og udsolgte/udgåede varer.
         </p>
 
         <h2 className="text-2xl pb-3 mt-4">Levering</h2>
         <p>
-          [ FIRMANAVN ] tilstræber at afsende ordre indgået inden kl. 17 samme
-          dag, ordre herefter sendes næstfølgende hverdag. Vi sender til hele
-          Danmark. Fragtpriser fra 25 kr. Varer vil blive leveret på
+          Hema's Blomster tilstræber at afsende ordre indgået inden [kl. 17
+          samme dag], ordre herefter sendes næstfølgende hverdag. Vi sender til
+          hele Danmark. [Fragtpriser fra 25 kr.] Varer vil blive leveret på
           leveringsadressen, der angives ved bestillingen. Vi leverer ikke til
-          udlandet og ikke til Færøerne og Grønland. Dine varer sendes med Post
-          Nord eller GLS. OBS: Hvis der ikke er plads på udleveringsstedet
+          udlandet og ikke til Færøerne og Grønland.[ Dine varer sendes med Post
+          Nord eller GLS.] OBS: Hvis der ikke er plads på udleveringsstedet
           bliver pakken flyttet til nærmeste udleveringssted, hvilket du får
           besked om. Opstår der problemer, kontakt da kundeservice. Der leveres
           varer alle ugens hverdage. Din vare vil blive leveret 1-3 hverdage
@@ -51,7 +51,7 @@ const TradingConditions = () => {
 
         <h2 className="text-2xl pb-3 mt-4">Reklamationsret</h2>
         <p>
-          Der gives 2 års reklamationsret i henhold til købeloven. Vores
+          [ Der gives 2 års reklamationsret i henhold til købeloven]. Vores
           reklamationsret gælder for fejl i materiale og/eller fabrikation. Du
           kan få varen repareret, ombyttet, pengene retur eller afslag i prisen,
           afhængig af den konkrete situation. Reklamationen gælder ikke fejl
@@ -64,9 +64,9 @@ const TradingConditions = () => {
           Ved returnering, reklamationer og benyttelse af fortrydelsesretten
           sendes til:
         </p>
-        <p>[ FIRMANAVN ]</p>
-        <p>[ ADRESSE ]</p>
-        <p>[ POSTNR OG BY ]</p>
+        <p>Hema's Blomster</p>
+        <p>Søborg Hovedgade 157-159</p>
+        <p>2860 Søborg</p>
         <p>Der modtages ikke forsendelser pr. efterkrav.</p>
 
         <h2 className="text-2xl pb-3 mt-4">Refusion</h2>
@@ -97,8 +97,8 @@ const TradingConditions = () => {
         <p>
           Vi behandler dine personoplysninger med det formål, at kunne levere
           varen til dig, og for at kunne behandle henvendelser vedrørende dit
-          køb. Behandlingen sker efter reglerne i vores persondatapolitik for [
-          FIRMANAVN ]. Heri kan du læse mere om, hvordan dine oplysninger
+          køb. Behandlingen sker efter reglerne i vores persondatapolitik for
+          Hema's Blomster. Heri kan du læse mere om, hvordan dine oplysninger
           behandles, hvornår de slettes, og hvilke rettigheder du har som
           registreret.
         </p>
@@ -121,7 +121,7 @@ const TradingConditions = () => {
           klage i EU Kommissionens online klageplatform.
         </p>
         <p>
-          Platformen findes her:{" "}
+          Platformen findes her:
           <a
             href="http://ec.europa.eu/consumers/odr/"
             className="text-violet-800"
@@ -130,8 +130,8 @@ const TradingConditions = () => {
           </a>
         </p>
         <p>
-          Angiver du en klage her, skal du oplyse vores E-mail adresse: [
-          E-MAILADRESSE ]
+          Angiver du en klage her, skal du oplyse vores E-mail adresse:
+          info@hemasblomster.dk
         </p>
       </section>
     </>
