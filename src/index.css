@@ -86,6 +86,8 @@ code {
 
   nav {
     position: relative;
+    height: 100%;
+
 
   }
 
@@ -95,6 +97,7 @@ code {
     text-align: center;
     background-color: #fff;
     height: 100vh;
+    z-index: 99;
 
 
   }
@@ -113,7 +116,7 @@ code {
     color: #fff;
     top: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 100;
 
   }
 
@@ -127,6 +130,12 @@ code {
 
   .menu-icon {
     display: none;
+  }
+
+  .img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .dropdown-content a {

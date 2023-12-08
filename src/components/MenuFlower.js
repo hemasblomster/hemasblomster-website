@@ -14,7 +14,7 @@ const MenuFlower = () => {
 
   return (
     <>
-      <nav className="items-center">
+      <nav>
         <div
           className="burger bg-violet-200 text-left"
           onClick={handleBurgerClick}
@@ -27,7 +27,7 @@ const MenuFlower = () => {
         <ul className="md:flex justify-center items-center p-4 gap-5 text-xl menu">
           <li>
             <Link to="/">
-              <img src={logo} alt="logo" className="w-auto h-24" />
+              <img src={logo} alt="logo" className="w-auto h-24 img-center" />
             </Link>
           </li>
           <li>
