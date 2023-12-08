@@ -30,7 +30,7 @@ const HomeInfo = () => {
         </div>
       </section>
 
-      <div className="flex justify-around  py-4 text-xl bold bg-violet-200">
+      <div className="hidden md:flex justify-around  py-4 text-xl bold bg-violet-200">
         <p>Afhent i butik</p>
         <p>Hurtig levering</p>
         <p>Flotte og friske blomster</p>
