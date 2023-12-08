@@ -4,7 +4,7 @@ const ContactForm = () => {
       <div>
         <form
           method="post"
-          action="https://www.hemasblomster.dk/cgi-bin/FormMail.pl"
+          action="http://www.hemasblomster.dk/cgi-bin/FormMail.pl"
           accept-charset="ISO-8859-1"
           onsubmit="var originalCharset = document.charset; 
             document.charset = 'ISO-8859-1'; 
@@ -47,8 +47,6 @@ const ContactForm = () => {
           <input
             type="hidden"
             name="redirect"
-            // value="http://www.hemasblomster.dk/thanks.html"
-            // value="https://hemasblomster.netlify.app/tak"
             value="http://www.hemasblomster.dk/tak"
           />
           <input
