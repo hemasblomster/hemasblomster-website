@@ -32,8 +32,10 @@ code {
 
 /* menu */
 
+
 .burger {
   display: none;
+
 }
 
 .private-icon {
@@ -68,15 +70,22 @@ code {
   opacity: 0.6;
 }
 
+/* burger */
+.menu {
+  display: none;
+}
+
+/* Visa menyn när klassen show-menu läggs till */
+.show-menu {
+  display: block;
+}
+
+
 /* Media query för mobila enheter */
 @media screen and (max-width: 768px) {
-  .burger {
+
+  nav {
     position: relative;
-    display: block;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #fff;
 
   }
 
@@ -86,6 +95,34 @@ code {
     text-align: center;
     background-color: #fff;
     height: 100vh;
+
+
+  }
+
+  nav li {
+    font-size: 40px;
+    padding-top: 35px;
+  }
+
+  .burger {
+    position: fixed;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 70px;
+
   }
 
   .menu-icon {

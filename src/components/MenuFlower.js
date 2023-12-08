@@ -1,12 +1,28 @@
 import logo from "../images/logo.png";
+
 import { Link } from "react-router-dom";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 const MenuFlower = () => {
+  const handleBurgerClick = () => {
+    const menu = document.querySelector(".menu");
+    menu.classList.toggle("show-menu");
+  };
+
   return (
     <>
-      <nav>
-        <div className="burger bg-violet-200">
-          <i className="fas fa-solid fa-bars fa-2x"></i>
+      <nav className="items-center">
+        <div
+          className="burger bg-violet-200 text-left"
+          onClick={handleBurgerClick}
+        >
+          <FontAwesomeIcon
+            icon={faBars}
+            className="text-violet-800 text-3xl "
+          />
         </div>
         <ul className="md:flex justify-center items-center p-4 gap-5 text-xl menu">
           <li>
@@ -38,7 +54,6 @@ const MenuFlower = () => {
               Begravelse
             </Link>
           </li>
-
           <li>
             <Link
               to="https://hemasblomster.dk/webshop/10-bryllup"
