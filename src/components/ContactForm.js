@@ -1,4 +1,16 @@
+import { useNavigate } from "react-router-dom";
+
 const ContactForm = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // ... logik för formulärinlämningen ...
+
+    navigate("/tak");
+  };
+
   return (
     <>
       <div>
@@ -6,9 +18,10 @@ const ContactForm = () => {
           method="post"
           action="http://www.hemasblomster.dk/cgi-bin/FormMail.pl"
           accept-charset="ISO-8859-1"
-          onsubmit="var originalCharset = document.charset; 
-            document.charset = 'ISO-8859-1'; 
-            window.onbeforeunload = function () {document.charset=originalCharset;};"
+          onSubmit={handleSubmit}
+          // onsubmit="var originalCharset = document.charset;
+          //   document.charset = 'ISO-8859-1';
+          //   window.onbeforeunload = function () {document.charset=originalCharset;};"
           className="bg-violet-300 p-8 text-white font-semibold text-left"
         >
           Navn
