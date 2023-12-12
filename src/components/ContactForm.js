@@ -5,9 +5,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
-    // ... logik för formulärinlämningen ...
-
     navigate("/tak");
   };
 
@@ -16,7 +13,7 @@ const ContactForm = () => {
       <div>
         <form
           method="post"
-          action="http://www.hemasblomster.dk/cgi-bin/FormMail.pl"
+          action="https://www.hemasblomster.dk/cgi-bin/FormMail.pl"
           accept-charset="ISO-8859-1"
           onSubmit={handleSubmit}
           // onsubmit="var originalCharset = document.charset;
@@ -60,12 +57,12 @@ const ContactForm = () => {
           <input
             type="hidden"
             name="redirect"
-            value="http://www.hemasblomster.dk/tak"
+            value="https://www.hemasblomster.dk/tak"
           />
           <input
             type="hidden"
             name="missing_fields_redirect"
-            value="http://www.hemasblomster.dk/error.html"
+            value="https://www.hemasblomster.dk/error.html"
           />
           <input type="hidden" name="required" value="realname,email,Message" />
         </form>
