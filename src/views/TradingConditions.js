@@ -15,75 +15,57 @@ const TradingConditions = () => {
         <p>2860 Søborg</p>
         <p>CVR nr.: 44119730</p>
         <p>Telefon: +45 31 33 61 05</p>
-        <p>Email: info@hemasblomster.dk</p>
+        <p>Email: info@hemasblomster.dk -ändra mail</p>
 
         <h2 className="text-2xl pb-3 mt-4">Priser</h2>
         <p>
-          Hos Hema's Blomster er alle priserne i danske kroner og angivet inkl.
-          moms og afgifter. Vi forbeholder os ret til fra dag til dag at ændre i
-          priserne uden forudgående samtykke. Der tages forbehold for udsolgte
-          varer.
+          Hos Hema's Blomster er alle priser angivet i danske kroner og
+          inkluderer moms og afgifter. Vi forbeholder os retten til at ændre
+          priserne fra dag til dag uden forudgående samtykke. Der tages
+          forbehold for udsolgte varer.
         </p>
 
         <h2 className="text-2xl pb-3 mt-4">Betaling</h2>
         <p>
-          Hema's Blomster [modtager betaling med VISA-Dankort, VISA, VISA
-          Electron, Mastercard, PayPal, MobilePay, Bankoverførsel.] Betalingen
-          vil først blive trukket på din konto, når varen afsendes. Alle beløb
-          er i DKK. Danske kroner og incl. moms. Der tages forbehold for
-          prisfejl og udsolgte/udgåede varer.
+          Hema's Blomster modtager betaling med VISA-Dankort, VISA, VISA
+          Electron, Mastercard, og PayPal. Alle beløb er i DKK, danske kroner,
+          og inkluderer moms. Der tages forbehold for prisfejl og
+          udsolgte/udgåede varer.
         </p>
 
         <h2 className="text-2xl pb-3 mt-4">Levering</h2>
         <p>
-          Hema's Blomster tilstræber at afsende ordre indgået inden [kl. 17
-          samme dag], ordre herefter sendes næstfølgende hverdag. Vi sender til
-          hele Danmark. [Fragtpriser fra 25 kr.] Varer vil blive leveret på
-          leveringsadressen, der angives ved bestillingen. Vi leverer ikke til
-          udlandet og ikke til Færøerne og Grønland.[ Dine varer sendes med Post
-          Nord eller GLS.] OBS: Hvis der ikke er plads på udleveringsstedet
-          bliver pakken flyttet til nærmeste udleveringssted, hvilket du får
-          besked om. Opstår der problemer, kontakt da kundeservice. Der leveres
-          varer alle ugens hverdage. Din vare vil blive leveret 1-3 hverdage
-          efter bestillingen. For visse varer gælder særlige leveringsvilkår.
-          Betingelserne vil fremgå specifikt forud for køb af disse varer.
+          Hema's Blomster stræber efter at afsende ordrer, der er modtaget inden
+          kl. 17 samme dag. Ordrer, der modtages herefter, sendes næste hverdag.
+          Vi leverer til hele København og omegn. Fragtpriser fra 50 kr gælder
+          kun til Søborg, og fra 70 kr udenfor Søborg. Varerne vil blive leveret
+          til den angivne leveringsadresse ved bestillingen. Hvis der opstår
+          problemer, bedes du kontakte kundeservice. Vi leverer varer alle ugens
+          dage, inklusive weekenden. Din vare vil blive leveret inden for 1-3
+          dage efter bestillingen. For visse varer gælder særlige
+          leveringsvilkår, som vil blive angivet tydeligt før køb af disse
+          varer.
         </p>
 
-        <h2 className="text-2xl pb-3 mt-4">Reklamationsret</h2>
+        <h2 className="text-2xl pb-3 mt-4">Tilbagekaldelse</h2>
         <p>
-          [ Der gives 2 års reklamationsret i henhold til købeloven]. Vores
-          reklamationsret gælder for fejl i materiale og/eller fabrikation. Du
-          kan få varen repareret, ombyttet, pengene retur eller afslag i prisen,
-          afhængig af den konkrete situation. Reklamationen gælder ikke fejl
-          eller skader begået ved forkert håndtering af produktet/ydelsen. Du
-          skal reklamere i "rimelig tid" efter du har opdaget manglen/fejlen. [
-          FIRMANAVN ] vil dække returneringsomkostninger i et rimeligt omfang.
+          Ved annullering skal kunden betale 50% af den oprindelige pris, som
+          blev angivet ved bestillingen. Ved returnering bedes du kontakte os
+          telefonisk for yderligere assistance. Vi er her for at hjælpe og
+          sikre, at processen forløber så smidigt som muligt.
         </p>
-        <br></br>
-        <p>
-          Ved returnering, reklamationer og benyttelse af fortrydelsesretten
-          sendes til:
-        </p>
-        <p>Hema's Blomster</p>
-        <p>Søborg Hovedgade 157-159</p>
-        <p>2860 Søborg</p>
-        <p>Der modtages ikke forsendelser pr. efterkrav.</p>
 
         <h2 className="text-2xl pb-3 mt-4">Refusion</h2>
         <p>
-          Hvis der er tale om refusion, bedes du medsende bankoplysninger i form
-          af regnr og kontonr, så det aftalte beløb kan overføres. Disse
-          oplysninger kan uden risiko oplyses pr. mail eller anden elektronisk
-          form, da det ikke er følsomme oplysninger og kun vil blive anvendt til
-          vores opfyldelse af refusionen.
+          Hvis der er tale om refusion, bedes du venligst medsende
+          bankoplysninger i form af registreringsnummer og kontonummer, så det
+          aftalte beløb kan overføres. Disse oplysninger kan oplyses pr. mail
+          eller i en anden elektronisk form uden risiko, da det ikke er følsomme
+          oplysninger og kun vil blive anvendt til opfyldelse af refusionen. Ved
+          returnering, bedes du kontakte os telefonisk.
         </p>
 
         <h2 className="text-2xl pb-3 mt-4">Persondatapolitik</h2>
-        <p>
-          For at du kan indgå aftale med os og handle på vores hjemmeside, har
-          vi brug for følgende oplysninger om dig:
-        </p>
-        <br></br>
         <p>
           For at du kan indgå aftale med os og handle på vores hjemmeside, har
           vi brug for følgende oplysninger om dig:
@@ -103,35 +85,12 @@ const TradingConditions = () => {
           registreret.
         </p>
 
-        <h2 className="text-2xl pb-3 mt-4">
-          Klagemuligheder - oversigt og links:
-        </h2>
+        <h2 className="text-2xl pb-3 mt-4">Bemærkning</h2>
         <p>
-          Har du en klage over et produkt, købt i vores Webshop, kan der sendes
-          en klage til:
-        </p>
-        <br></br>
-        <p>Konkurrence- og Forbrugerstyrelsens Center for Klageløsning</p>
-        <p>Carl Jacobsens Vej 35</p>
-        <p>2500 Valby</p>
-        <p>Link: www.forbrug.dk</p>
-        <br></br>
-        <p>
-          Hvis du er forbruger med bopæl i et andet EU-land, kan du angive din
-          klage i EU Kommissionens online klageplatform.
-        </p>
-        <p>
-          Platformen findes her:
-          <a
-            href="http://ec.europa.eu/consumers/odr/"
-            className="text-violet-800"
-          >
-            http://ec.europa.eu/consumers/odr/
-          </a>
-        </p>
-        <p>
-          Angiver du en klage her, skal du oplyse vores E-mail adresse:
-          info@hemasblomster.dk
+          Hvis du er utilfreds, bedes du venligst sende en besked til os, så vi
+          kan løse dette på bedst mulig vis. Vi værdsætter din feedback og
+          stræber efter at forbedre din oplevelse. Tak fordi du deler dine
+          synspunkter med os.
         </p>
       </section>
     </>
