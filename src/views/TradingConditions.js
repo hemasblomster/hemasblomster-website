@@ -15,7 +15,7 @@ const TradingConditions = () => {
         <p>2860 Søborg</p>
         <p>CVR nr.: 44119730</p>
         <p>Telefon: +45 31 33 61 05</p>
-        <p>Email: info@hemasblomster.dk -ändra mail</p>
+        <p>Email: hemasblomster@gmail.com</p>
 
         <h2 className="text-2xl pb-3 mt-4">Priser</h2>
         <p>
