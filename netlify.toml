@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/webshop"
-  to = "https://webshop.hemasblomster.dk"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
