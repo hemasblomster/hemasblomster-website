@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/webshop/*"
+  to = "https://webshop.hemasblomster.dk/:splat"
+  status = 200
+  force = true
